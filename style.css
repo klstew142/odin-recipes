@@ -1,0 +1,16 @@
+body{
+    background-color: silver;
+}
+
+h1{
+    text-align: center;
+    background-color: skyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+
+}
+
+ul{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
