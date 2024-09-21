@@ -1,3 +1,5 @@
+/*ALL PAGES*/
+
 body{
     background-color: lightblue;
 }
@@ -8,7 +10,8 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     color: white;
-
+    border-radius: 30px;
+    padding: 10px;
 }
 
 ul{
@@ -16,7 +19,23 @@ ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.Steps{
+/*MAIN PAGE*/
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* RECIPE PAGES*/
+
+.description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+.steps{
     font-size: 20px;
     margin-bottom: 50px;
+    line-height: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
