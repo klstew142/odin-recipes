@@ -9,14 +9,18 @@ h1{
     background-color: darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    color: white;
     border-radius: 30px;
     padding: 10px;
+    color: white;
 }
 
 ul{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    a:link {text-decoration: none;}
+    a { color: white; }
+    font-weight: bold;
 }
 
 /*MAIN PAGE*/
@@ -24,6 +28,28 @@ ul{
 .navigation{
     display: flex;
     justify-content: space-evenly;
+    color: white;
+}
+
+.lasagne{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: yellowgreen;
+}
+
+.victoria-sponge{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: yellowgreen;
+}
+
+.pork-chops{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: yellowgreen;
 }
 /* RECIPE PAGES*/
 
